@@ -107,6 +107,8 @@ main {
   right: 1em;
   top: 260px;
   width: 340px;
+  max-height: calc(100vh - 280px);
+  overflow-y: auto;
   z-index: 1100;
   background: rgba(12, 12, 12, 0.95);
   border: 1px solid #444;
