@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Viewer</title>
+    <title>OUPS! Publication Spring 26</title>
 
     <style>
         * {
@@ -14,7 +13,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f1f1f1;
+            background: #333;
         }
 
         .toolbar {
@@ -35,9 +34,13 @@
             border-radius: 4px;
         }
 
+        .toolbar a:hover {
+            background: #666;
+        }
+
         .pdf-container {
-            height: calc(100vh - 55px);
             width: 100%;
+            height: calc(100vh - 55px);
         }
 
         .pdf-container iframe {
@@ -51,12 +54,17 @@
 <body>
 
     <div class="toolbar">
-        <span>PDF Document</span>
-        <a href="OUPS!_Publication_Spring26_Web.pdf" download>Download PDF</a>
+        <span>OUPS! Publication Spring 26</span>
+        <a href="/OUPS!_Publication_Spring26_Web.pdf" download>
+            Download PDF
+        </a>
     </div>
 
     <div class="pdf-container">
-        <iframe src="document.pdf"></iframe>
+        <iframe
+            src="/OUPS!_Publication_Spring26_Web.pdf"
+            title="OUPS! Publication Spring 26">
+        </iframe>
     </div>
 
 </body>
