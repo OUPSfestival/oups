@@ -52,7 +52,7 @@
 
     <div class="toolbar">
         <span>PDF Document</span>
-        <a href="document.pdf" download>Download PDF</a>
+        <a href="OUPS!_Publication_Spring26_Web.pdf" download>Download PDF</a>
     </div>
 
     <div class="pdf-container">
