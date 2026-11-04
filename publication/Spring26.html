@@ -7,46 +7,14 @@
     <title>OUPS! Publication Spring 26</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
             background: #333;
         }
 
-        .toolbar {
-            height: 55px;
-            background: #222;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 20px;
-        }
-
-        .toolbar a {
-            color: white;
-            text-decoration: none;
-            background: #444;
-            padding: 9px 15px;
-            border-radius: 4px;
-        }
-
-        .toolbar a:hover {
-            background: #666;
-        }
-
-        .pdf-container {
+        iframe {
             width: 100%;
-            height: calc(100vh - 55px);
-        }
-
-        .pdf-container iframe {
-            width: 100%;
-            height: 100%;
+            height: 100vh;
             border: none;
         }
     </style>
@@ -54,19 +22,10 @@
 
 <body>
 
-    <div class="toolbar">
-        <span>OUPS! Publication Spring 26</span>
-        <a href="OUPS!_Publication_Spring26_Web.pdf" download>
-            Download PDF
-        </a>
-    </div>
-
-    <div class="pdf-container">
-        <iframe
-            src="OUPS!_Publication_Spring26_Web.pdf"
-            title="OUPS! Publication Spring 26">
-        </iframe>
-    </div>
+<iframe
+    src="pdfjs/web/viewer.html?file=../../OUPS%21_Publication_Spring26_Web.pdf#spreadMode=2"
+    title="OUPS! Publication Spring 26">
+</iframe>
 
 </body>
 </html>
