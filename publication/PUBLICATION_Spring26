@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,14 +56,14 @@
 
     <div class="toolbar">
         <span>OUPS! Publication Spring 26</span>
-        <a href="/OUPS!_Publication_Spring26_Web.pdf" download>
+        <a href="OUPS!_Publication_Spring26_Web.pdf" download>
             Download PDF
         </a>
     </div>
 
     <div class="pdf-container">
         <iframe
-            src="/OUPS!_Publication_Spring26_Web.pdf"
+            src="OUPS!_Publication_Spring26_Web.pdf"
             title="OUPS! Publication Spring 26">
         </iframe>
     </div>
