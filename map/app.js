@@ -39,7 +39,7 @@ function renderMarkers() {
 }
 
 const map = L.map('map').setView([50.8503, 4.3517], 13);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}@2x.png?key=cb1_5509_1_c32e77d12fa7f02368928af3', {
   attribution: '© OpenStreetMap contributors © CARTO',
   maxZoom: 19,
 }).addTo(map);
